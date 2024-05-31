@@ -30,10 +30,13 @@ pct_data_1990_2021: Percentage of available monthly average values from 1990 to 
 breakpoint_drop: Indicates whether a monitoring station was excluded from the analysis after manual inspection (True if excluded).
 
 trend_normalized: Normalized trend in groundwater levels, expressed as a percentage per year.
+Meaning of Values: The values indicate the rate of change in groundwater levels on a normalized scale. For example, a value of 0.49766556 means that the groundwater level is increasing by approximately 0.4977% per year, whereas a value of -0.65896867 means that the groundwater level is decreasing by approximately 0.6590% per year. 
 
 trend_bin: Trend classification, ranging from "stark sinkend" (strongly decreasing) to "stark steigend" (strongly increasing).
 
 trend_raw: Raw trend in groundwater levels, expressed in meters per year.
+Meaning of Values: The values indicate the actual change in groundwater levels over a year. For instance, a value of 0.00619594 means that the groundwater level is rising by 0.0062 meters per year, while a value of -0.00948915 means that the groundwater level is falling by 0.0095 meters per year. This provides a direct measure of the change in groundwater levels.
+
 
 range: Range of monthly average values in meters.
 
